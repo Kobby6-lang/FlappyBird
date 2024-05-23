@@ -41,7 +41,8 @@ public class PauseMenu : MonoBehaviour
 
     public void LoadMenu() 
     {
-       SceneManager.LoadScene("FlappyBird");
+        Time.timeScale = 1f;
+       SceneManager.LoadScene("FlappyMain Menu");
     }
 
     public void Quit() 
